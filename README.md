@@ -7,6 +7,9 @@
 
   Denny worked on:
     freemem.c, get_mem_stats.c, mem_impl.h, bench.c, Makefile
+    
+## Overview
+  Developed a custom memory management functions: getmem() and freemem() that corresonds to malloc() and free() functions, respectively.
 
 ## Heap List
   Heap list is organized in ascending order based on addresses of the header of the blocks. None of the blocks in the list are touching each other. The header of the blocks consist of a size and a pointer to the next block in the list.
